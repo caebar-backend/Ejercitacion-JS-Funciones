@@ -16,7 +16,7 @@ Clona tu copia del repositorio a tu máquina local usando el siguiente comando e
 
 ```bash
 git clone https://github.com/TU_USUARIO/Ejercitacion-JS-Funciones.git
-code .
+code Ejercitacion-JS-Funciones
 ```
 
 Reemplaza `TU_USUARIO` con tu nombre de usuario de GitHub.

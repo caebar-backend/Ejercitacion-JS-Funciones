@@ -72,13 +72,13 @@ const tablaDeMultiplicar = (numero) => {
     }
     let guardo
     for(let i = 1; i <= 10; i++){
-     guardo = `${numero} x ${i} = ${numero * i}`
+     guardo = `${numero} x ${i} = ${numero * i}\n`
      arrayTablaMultiplicar.push(guardo)
     }
     return arrayTablaMultiplicar
 }
 
-const pregunta = parseInt(prompt(chalk.blueBright(' Escribe un número para ser analizado ----> ')))
+const pregunta = parseInt(prompt(chalk.cyanBright(' Escribe un número para ser analizado ----> ')))
 
 let resultadoUno = calcularFactorial(pregunta)
 let resultadoDos = esPrimo(pregunta)
@@ -91,9 +91,9 @@ console.log(chalk.yellowBright(`<-----------------------------------------------
 console.log(chalk.greenBright(`<-------------------- Es Primo? -----------------------> `))
 console.log(chalk.greenBright(resultadoDos))
 console.log(chalk.greenBright(`<-------------------------------------------------------->`))
-console.log(chalk.blueBright(`<------------------------ Tabla de Multiplicar ------------------------> `))
+console.log(chalk.blueBright(`<------------------------ Tabla de Multiplicar ------------------------> \n`))
 console.log(chalk.blueBright(resultadoTres))
-console.log(`<-------------------------------------------------------------------------->`)
+console.log(chalk.blueBright(`<-------------------------------------------------------------------------->`))
 console.log(chalk.magentaBright(`<------------------------ Cantidad de Divisores ------------------------> `))
 console.log(chalk.magentaBright(resultadoCuatro))
 console.log(chalk.magentaBright(`<------------------------------------------------------------------------->`))

@@ -9,9 +9,6 @@
 const prompt = require('prompt-sync')({sigint: true})
 
 const chalk = require('chalk')
-const nodeNotifier = require('node-notifier')
-
-let ok
 let moneda
 
 while(true){
